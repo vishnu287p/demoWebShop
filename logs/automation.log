@@ -1,0 +1,17 @@
+2025-01-05 00:03:04 INFO  TC001_AccountRegistrationTest:21 - ******TC001_AccountRegistrationTest started****** 
+2025-01-05 00:03:04 INFO  TC001_AccountRegistrationTest:21 - ******TC001_AccountRegistrationTest started****** 
+2025-01-05 00:03:05 INFO  TC001_AccountRegistrationTest:24 - clicked on Register link
+2025-01-05 00:03:05 INFO  TC001_AccountRegistrationTest:26 - Entering Customer details
+2025-01-05 00:03:24 INFO  TC002_LoginTest:18 - *******TC002_LoginTest Started*******
+2025-01-05 00:03:25 INFO  TC002_LoginTest:21 - Entering user Details....
+2025-01-05 00:03:26 INFO  TC002_LoginTest:26 - *****My Account details******
+2025-01-05 00:03:26 INFO  TC002_LoginTest:41 - *****Finished TC002_LoginTest
+2025-01-05 00:05:00 INFO  TC001_AccountRegistrationTest:21 - ******TC001_AccountRegistrationTest started****** 
+2025-01-05 00:05:01 INFO  TC001_AccountRegistrationTest:24 - clicked on Register link
+2025-01-05 00:05:01 INFO  TC001_AccountRegistrationTest:26 - Entering Customer details
+2025-01-05 00:05:03 INFO  TC001_AccountRegistrationTest:34 - Validating confirmation message....
+2025-01-05 00:05:03 INFO  TC001_AccountRegistrationTest:51 - *****Finished TC001_AccountRegistrationTest test case******
+2025-01-05 00:05:09 INFO  TC002_LoginTest:18 - *******TC002_LoginTest Started*******
+2025-01-05 00:05:10 INFO  TC002_LoginTest:21 - Entering user Details....
+2025-01-05 00:05:11 INFO  TC002_LoginTest:26 - *****My Account details******
+2025-01-05 00:05:12 INFO  TC002_LoginTest:41 - *****Finished TC002_LoginTest
