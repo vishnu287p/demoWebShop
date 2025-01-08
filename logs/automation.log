@@ -1,39 +1,39 @@
-2025-01-07 10:37:00 INFO  Utils:112 - [TestNG] Running:
+2025-01-08 08:52:05 INFO  Utils:112 - [TestNG] Running:
   C:\eclipse\selenium_workspace\opencart\Master.xml
 
-2025-01-07 10:37:13 INFO  TC001_AccountRegistrationTest:21 - ******TC001_AccountRegistrationTest started****** 
-2025-01-07 10:37:14 INFO  TC001_AccountRegistrationTest:24 - clicked on Register link
-2025-01-07 10:37:14 INFO  TC001_AccountRegistrationTest:26 - Entering Customer details
-2025-01-07 10:37:16 INFO  TC001_AccountRegistrationTest:34 - Validating confirmation message....
-2025-01-07 10:37:16 INFO  TC001_AccountRegistrationTest:51 - *****Finished TC001_AccountRegistrationTest test case******
-2025-01-07 10:37:23 INFO  TC002_LoginTest:18 - *******TC002_LoginTest Started*******
-2025-01-07 10:37:23 INFO  TC002_LoginTest:21 - Entering user Details....
-2025-01-07 10:37:24 INFO  TC002_LoginTest:26 - *****My Account details******
-2025-01-07 10:37:25 INFO  TC002_LoginTest:41 - *****Finished TC002_LoginTest
-2025-01-07 10:39:44 INFO  Utils:112 - [TestNG] Running:
+2025-01-08 08:52:15 INFO  TC005_SearchFunctionality:13 - *******TC002_LoginTest Started*******
+2025-01-08 08:52:16 INFO  TC005_SearchFunctionality:16 - Entering user Details....
+2025-01-08 09:41:58 INFO  Utils:112 - [TestNG] Running:
   C:\eclipse\selenium_workspace\opencart\Master.xml
 
-2025-01-07 10:41:03 INFO  Utils:112 - [TestNG] Running:
+2025-01-08 09:42:08 INFO  TC005_SearchFunctionality:15 - *******TC002_LoginTest Started*******
+2025-01-08 09:42:09 INFO  TC005_SearchFunctionality:18 - Entering user Details....
+2025-01-08 09:42:10 INFO  TC005_SearchFunctionality:23 - Entered item name & clicked on Search Button
+2025-01-08 09:43:03 INFO  Utils:112 - [TestNG] Running:
   C:\eclipse\selenium_workspace\opencart\Master.xml
 
-2025-01-07 10:41:38 INFO  Utils:112 - [TestNG] Running:
+2025-01-08 09:43:12 INFO  TC005_SearchFunctionality:15 - *******TC002_LoginTest Started*******
+2025-01-08 09:43:13 INFO  TC005_SearchFunctionality:18 - Entering user Details....
+2025-01-08 09:43:14 INFO  TC005_SearchFunctionality:23 - Entered item name & clicked on Search Button
+2025-01-08 09:48:22 INFO  Utils:112 - [TestNG] Running:
   C:\eclipse\selenium_workspace\opencart\Master.xml
 
-2025-01-07 10:44:15 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\Master.xml
-
-2025-01-07 10:45:35 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\Master.xml
-
-2025-01-07 10:46:54 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\Master.xml
-
-2025-01-07 11:00:23 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\Master.xml
-
-2025-01-07 11:01:36 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\Master.xml
-
-2025-01-07 11:04:02 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\Master.xml
-
+2025-01-08 09:48:30 INFO  TC001_AccountRegistrationTest:21 - ******TC001_AccountRegistrationTest started****** 
+2025-01-08 09:48:30 INFO  TC001_AccountRegistrationTest:24 - clicked on Register link
+2025-01-08 09:48:30 INFO  TC001_AccountRegistrationTest:26 - Entering Customer details
+2025-01-08 09:48:32 INFO  TC001_AccountRegistrationTest:34 - Validating confirmation message....
+2025-01-08 09:48:32 INFO  TC001_AccountRegistrationTest:51 - *****Finished TC001_AccountRegistrationTest test case******
+2025-01-08 09:48:40 INFO  TC002_LoginTest:18 - *******TC002_LoginTest Started*******
+2025-01-08 09:48:40 INFO  TC002_LoginTest:21 - Entering user Details....
+2025-01-08 09:48:41 INFO  TC002_LoginTest:26 - *****My Account details******
+2025-01-08 09:48:42 INFO  TC002_LoginTest:41 - *****Finished TC002_LoginTest
+2025-01-08 09:48:49 INFO  TC003_AddBooksToCart:18 - *******TC002_LoginTest Started*******
+2025-01-08 09:48:49 INFO  TC003_AddBooksToCart:21 - Entering user Details....
+2025-01-08 09:48:51 INFO  TC003_AddBooksToCart:26 - *****Clicking on Books link******
+2025-01-08 09:48:51 INFO  TC003_AddBooksToCart:29 - *****Adding book to the cart*****
+2025-01-08 09:48:52 INFO  TC003_AddBooksToCart:33 - *****checking book quantity in the cart*****
+2025-01-08 09:48:59 INFO  TC004_SearchFunctionality:15 - *******TC002_LoginTest Started*******
+2025-01-08 09:48:59 INFO  TC004_SearchFunctionality:18 - Entering user Details....
+2025-01-08 09:49:00 INFO  TC004_SearchFunctionality:24 - Entered item name & clicked on Search Button
+2025-01-08 09:49:01 INFO  TC004_SearchFunctionality:29 - Asserts on Search Page title & search Product Item
+2025-01-08 09:49:01 INFO  TC004_SearchFunctionality:35 - *******Finished TC004_SearchFunctionality*******

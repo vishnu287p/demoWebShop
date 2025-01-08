@@ -8,11 +8,13 @@
 		<parameter name="os" value="Windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="testCases.TC004_AddBooksToCart" />
+			<class name="testCases.TC001_AccountRegistrationTest" />
+			<class name="testCases.TC002_LoginTest" />
+			<class name="testCases.TC003_AddBooksToCart" />
+			<class name="testCases.TC004_SearchFunctionality" />
 
 		</classes>
 	</test> <!--
 	Test -->
-
 </suite> <!--
 Suite -->
