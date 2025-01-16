@@ -1,5 +1,8 @@
  package testCases;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
@@ -38,7 +41,48 @@ public class TC002_LoginTest extends BaseClass{
 		catch(Exception e) {
 			Assert.fail();
 		}
-		logger.info("*****Finished TC002_LoginTest");
+		logger.info("*****Finished TC002_LoginTest valid case");
+	}
+	
+	@Test(groups={"Sanity","Master"})
+	public void invalidLogin() {
+		logger.info("*****TC002_LoginTest invlaid case Started*****");
+		HomePage hp = new HomePage(driver);
+		hp.clickLogin();
+		logger.info("Entering Invalid user Details....");
+		LoginPage login = new LoginPage(driver);
+		login.setEmail(p.getProperty("email"));
+	    login.setPassword(p.getProperty("invalid_password"));
+	    login.clickLogin();
+	    String expected_errmsg = "Login was unsuccessful. Please correct the errors and try again.";
+	    if(login.checkErrorMsg().equals(expected_errmsg)){
+	    	Assert.assertTrue(true);
+	    }
+	    else{
+			logger.error("****Test Case Failed******");
+			logger.debug("****Debug Logs****");
+	    	Assert.assertFalse(false);
+	    }	    
+	    logger.info("*****Finished TC002_LoginTest Invalid case*****");
+	}
+	@Test(groups={"Sanity","Master"})
+	public void blankLogin() {
+		logger.info("*****TC002_LoginTest Blank case Started*****");
+		HomePage hp = new HomePage(driver);
+		hp.clickLogin();
+		logger.info("Entering Invalid user Details....");
+		LoginPage login = new LoginPage(driver);
+		login.clickLogin();
+	    String expected_errmsg = "Login was unsuccessful. Please correct the errors and try again.";
+	    if(login.checkErrorMsg().equals(expected_errmsg)){
+	    	Assert.assertTrue(true);
+	    }
+	    else{
+			logger.error("****Test Case Failed******");
+			logger.debug("****Debug Logs****");
+	    	Assert.assertFalse(false);
+	    }	    
+	    logger.info("*****Finished TC002_LoginTest Blank case*****");
 	}
 
 }
