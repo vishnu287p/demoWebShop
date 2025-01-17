@@ -55,7 +55,9 @@ public class TC002_LoginTest extends BaseClass{
 	    login.setPassword(p.getProperty("invalid_password"));
 	    login.clickLogin();
 	    String expected_errmsg = "Login was unsuccessful. Please correct the errors and try again.";
-	    if(login.checkErrorMsg().equals(expected_errmsg)){
+	    String expected_InvalidCreds_errmsg = "The credentials provided are incorrect";
+	    
+	    if(login.checkErrorMsg().equals(expected_errmsg) && login.checkPrimaryErrorMsg().equals(expected_InvalidCreds_errmsg)){
 	    	Assert.assertTrue(true);
 	    }
 	    else{
@@ -74,7 +76,9 @@ public class TC002_LoginTest extends BaseClass{
 		LoginPage login = new LoginPage(driver);
 		login.clickLogin();
 	    String expected_errmsg = "Login was unsuccessful. Please correct the errors and try again.";
-	    if(login.checkErrorMsg().equals(expected_errmsg)){
+	    String expected_blankLogin_errmsg = "No customer account found";
+	    
+	    if(login.checkErrorMsg().equals(expected_errmsg) && login.checkPrimaryErrorMsg().equals(expected_blankLogin_errmsg)){
 	    	Assert.assertTrue(true);
 	    }
 	    else{

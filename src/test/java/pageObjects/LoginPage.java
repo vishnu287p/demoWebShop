@@ -22,6 +22,9 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath = "//div[@class='validation-summary-errors']/span")
 	WebElement errormsg;
 	
+	@FindBy(xpath = "//div[@class='validation-summary-errors']//li")
+	WebElement primary_errmsg;
+	
 	public void setEmail(String email) {
 		txtEmail.sendKeys(email);
 	}
@@ -35,5 +38,9 @@ public class LoginPage extends BasePage{
 		String expErr = errormsg.getText();
 		return expErr;
 		
+	}
+	public String checkPrimaryErrorMsg() {
+		String expBlankLogin_Err = primary_errmsg.getText();
+		return expBlankLogin_Err;
 	}
 }

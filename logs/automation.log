@@ -1,20 +1,13 @@
-2025-01-16 08:05:30 INFO  Utils:112 - [TestNG] Running:
+2025-01-17 09:17:10 INFO  Utils:112 - [TestNG] Running:
   C:\eclipse\selenium_workspace\opencart\groups.xml
 
-2025-01-16 08:05:42 INFO  TC002_LoginTest:21 - *******TC002_LoginTest Started*******
-2025-01-16 08:05:43 INFO  TC002_LoginTest:24 - Entering user Details....
-2025-01-16 08:05:44 INFO  TC002_LoginTest:29 - *****My Account details******
-2025-01-16 08:05:44 INFO  TC002_LoginTest:44 - *****Finished TC002_LoginTest
-2025-01-16 08:38:40 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\groups.xml
-
-2025-01-16 08:38:49 INFO  TC002_LoginTest:70 - *****TC002_LoginTest Blank case Started*****
-2025-01-16 08:38:50 INFO  TC002_LoginTest:73 - Entering Invalid user Details....
-2025-01-16 08:38:51 INFO  TC002_LoginTest:85 - *****Finished TC002_LoginTest Blank case*****
-2025-01-16 08:38:51 INFO  TC002_LoginTest:49 - *****TC002_LoginTest invlaid case Started*****
-2025-01-16 08:38:52 INFO  TC002_LoginTest:52 - Entering Invalid user Details....
-2025-01-16 08:38:53 INFO  TC002_LoginTest:66 - *****Finished TC002_LoginTest Invalid case*****
-2025-01-16 08:38:53 INFO  TC002_LoginTest:21 - *******TC002_LoginTest Started*******
-2025-01-16 08:38:53 INFO  TC002_LoginTest:24 - Entering user Details....
-2025-01-16 08:38:55 INFO  TC002_LoginTest:29 - *****My Account details******
-2025-01-16 08:38:55 INFO  TC002_LoginTest:44 - *****Finished TC002_LoginTest valid case
+2025-01-17 09:17:30 INFO  TC002_LoginTest:72 - *****TC002_LoginTest Blank case Started*****
+2025-01-17 09:17:31 INFO  TC002_LoginTest:75 - Entering Invalid user Details....
+2025-01-17 09:17:32 INFO  TC002_LoginTest:89 - *****Finished TC002_LoginTest Blank case*****
+2025-01-17 09:17:32 INFO  TC002_LoginTest:49 - *****TC002_LoginTest invlaid case Started*****
+2025-01-17 09:17:33 INFO  TC002_LoginTest:52 - Entering Invalid user Details....
+2025-01-17 09:17:34 INFO  TC002_LoginTest:68 - *****Finished TC002_LoginTest Invalid case*****
+2025-01-17 09:17:34 INFO  TC002_LoginTest:21 - *******TC002_LoginTest Started*******
+2025-01-17 09:17:35 INFO  TC002_LoginTest:24 - Entering user Details....
+2025-01-17 09:17:36 INFO  TC002_LoginTest:29 - *****My Account details******
+2025-01-17 09:17:36 INFO  TC002_LoginTest:44 - *****Finished TC002_LoginTest valid case
