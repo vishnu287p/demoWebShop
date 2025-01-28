@@ -1,17 +1,12 @@
 package utilities;
 
-import java.awt.Desktop;
-import java.io.File;
 import java.io.IOException;
-//import java.net.URL;
-import java.net.URL;
+
 
 //Extent report 5.x...//version
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 import java.util.List;
 
 import org.testng.ITestContext;
@@ -35,25 +30,20 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onStart(ITestContext testContext) {
 		
-		/*SimpleDateFormat df=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
-		Date dt=new Date();
-		String currentdatetimestamp=df.format(dt);
-		*/
 		String pattern = "yyyy-MM-dd'T'HH-mm-ss";    
 	    DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
 		String timeStamp = LocalDateTime.now().format(formatter); //time stamp
 		
-//		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		repName = "Test-Report-" + timeStamp + ".html";
 		sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"\\reports\\" + repName);// specify location of the report
 
-		sparkReporter.config().setDocumentTitle("opencart Automation Report"); // Title of report
-		sparkReporter.config().setReportName("opencart Functional Testing"); // name of the report
+		sparkReporter.config().setDocumentTitle("WebShop Automation Report"); // Title of report
+		sparkReporter.config().setReportName("WebShop Functional Testing"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);
 		
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "opencart");
+		extent.setSystemInfo("Application", "DemoWebShop");
 		extent.setSystemInfo("Module", "Admin");
 		extent.setSystemInfo("Sub Module", "Customers");
 //		extent.setSystemInfo("User Name", System.getProperty("user.name"));
