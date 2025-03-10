@@ -1,13 +1,32 @@
-2025-01-17 09:17:10 INFO  Utils:112 - [TestNG] Running:
-  C:\eclipse\selenium_workspace\opencart\groups.xml
+2025-03-09 01:25:48 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse\selenium_workspace\opencart\suites\Master.xml
 
-2025-01-17 09:17:30 INFO  TC002_LoginTest:72 - *****TC002_LoginTest Blank case Started*****
-2025-01-17 09:17:31 INFO  TC002_LoginTest:75 - Entering Invalid user Details....
-2025-01-17 09:17:32 INFO  TC002_LoginTest:89 - *****Finished TC002_LoginTest Blank case*****
-2025-01-17 09:17:32 INFO  TC002_LoginTest:49 - *****TC002_LoginTest invlaid case Started*****
-2025-01-17 09:17:33 INFO  TC002_LoginTest:52 - Entering Invalid user Details....
-2025-01-17 09:17:34 INFO  TC002_LoginTest:68 - *****Finished TC002_LoginTest Invalid case*****
-2025-01-17 09:17:34 INFO  TC002_LoginTest:21 - *******TC002_LoginTest Started*******
-2025-01-17 09:17:35 INFO  TC002_LoginTest:24 - Entering user Details....
-2025-01-17 09:17:36 INFO  TC002_LoginTest:29 - *****My Account details******
-2025-01-17 09:17:36 INFO  TC002_LoginTest:44 - *****Finished TC002_LoginTest valid case
+2025-03-09 01:25:57 INFO  TC001_AccountRegistrationTest:22 - ******TC001_AccountRegistrationTest started****** 
+2025-03-09 01:25:58 INFO  TC001_AccountRegistrationTest:25 - clicked on Register link
+2025-03-09 01:25:58 INFO  TC001_AccountRegistrationTest:27 - Entering Customer details
+2025-03-09 01:25:59 INFO  TC001_AccountRegistrationTest:35 - Validating confirmation message....
+2025-03-09 01:25:59 INFO  TC001_AccountRegistrationTest:52 - *****Finished TC001_AccountRegistrationTest test case******
+2025-03-09 01:26:09 INFO  TC002_LoginTest:21 - *******TC002_LoginTest Started*******
+2025-03-09 01:26:10 INFO  TC002_LoginTest:24 - Entering user Details....
+2025-03-09 01:26:11 INFO  TC002_LoginTest:29 - *****My Account details******
+2025-03-09 01:26:11 INFO  TC002_LoginTest:44 - *****Finished TC002_LoginTest valid case
+2025-03-09 01:26:19 INFO  TC003_InvalidLoginTest:13 - *****TC002_LoginTest invlaid case Started*****
+2025-03-09 01:26:20 INFO  TC003_InvalidLoginTest:16 - Entering Invalid user Details....
+2025-03-09 01:26:21 INFO  TC003_InvalidLoginTest:32 - *****Finished TC002_LoginTest Invalid case*****
+2025-03-09 01:26:28 INFO  TC004_BlankLoginTest:13 - *****TC002_LoginTest Blank case Started*****
+2025-03-09 01:26:29 INFO  TC004_BlankLoginTest:16 - Entering Invalid user Details....
+2025-03-09 01:26:30 INFO  TC004_BlankLoginTest:30 - *****Finished TC002_LoginTest Blank case*****
+2025-03-09 01:26:38 INFO  TC005_AddBooksToCart:19 - *******TC002_LoginTest Started*******
+2025-03-09 01:26:38 INFO  TC005_AddBooksToCart:22 - Entering user Details....
+2025-03-09 01:26:39 INFO  TC005_AddBooksToCart:27 - *****Clicking on Books link******
+2025-03-09 01:26:41 INFO  TC005_AddBooksToCart:30 - *****Adding book to the cart*****
+2025-03-09 01:26:41 INFO  TC005_AddBooksToCart:34 - *****checking book quantity in the cart*****
+2025-03-09 01:26:49 INFO  TC006_SearchFunctionality:19 - *******TC004_SearchFunctionality valid searchItem Started*******
+2025-03-09 01:26:49 INFO  TC006_SearchFunctionality:22 - Entering user Details....
+2025-03-09 01:26:50 INFO  TC006_SearchFunctionality:28 - Entered item name & clicked on Search Button
+2025-03-09 01:26:51 INFO  TC006_SearchFunctionality:33 - Asserts on Search Page title & search Product Item
+2025-03-09 01:26:52 INFO  TC006_SearchFunctionality:39 - *******Finished TC004_SearchFunctionality valid searchItem *******
+2025-03-09 01:26:52 INFO  TC006_SearchFunctionality:48 - *******TC004_SearchFunctionality Invalid searchItem Started*******
+2025-03-09 01:26:52 INFO  TC006_SearchFunctionality:50 - Entered invlaid item name & clicked on Search Button
+2025-03-09 01:26:53 INFO  TC006_SearchFunctionality:55 - Asserts on Search Page title & search Invalid Product Item
+2025-03-09 01:26:53 INFO  TC006_SearchFunctionality:61 - *******Finished TC004_SearchFunctionality Invalid searchItem *******
