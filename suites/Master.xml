@@ -14,7 +14,7 @@
 			<class name="com.vish.testCases.TC004_BlankLoginTest" />
 			<class name="com.vish.testCases.TC005_AddBooksToCart" />
 			<class name="com.vish.testCases.TC006_SearchFunctionality" />
-
+            <class name="com.vish.testCases.TC007_InvalidSearchItem" />
 		</classes>
 	</test> <!--
 	Test -->

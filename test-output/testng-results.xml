@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-09T01:25:48 IST" name="Suite" finished-at="2025-03-09T01:26:53 IST" duration-ms="65088">
+  <suite started-at="2025-03-10T09:32:54 IST" name="Suite" finished-at="2025-03-10T09:34:18 IST" duration-ms="84207">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_acccount_registration()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@4ce1d6d0]" name="verify_acccount_registration" class="com.vish.testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:com.vish.testCases.TC002_LoginTest@16ce702d]" name="verifyLogin" class="com.vish.testCases.TC002_LoginTest"/>
-        <method signature="TC003_InvalidLoginTest.invalidLogin()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7b94089b]" name="invalidLogin" class="com.vish.testCases.TC003_InvalidLoginTest"/>
-        <method signature="TC004_BlankLoginTest.blankLogin()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@7ca20101]" name="blankLogin" class="com.vish.testCases.TC004_BlankLoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_acccount_registration()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@24111ef1]" name="verify_acccount_registration" class="com.vish.testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:com.vish.testCases.TC002_LoginTest@7b94089b]" name="verifyLogin" class="com.vish.testCases.TC002_LoginTest"/>
+        <method signature="TC003_InvalidLoginTest.invalidLogin()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7ca20101]" name="invalidLogin" class="com.vish.testCases.TC003_InvalidLoginTest"/>
+        <method signature="TC004_BlankLoginTest.blankLogin()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@47f9738]" name="blankLogin" class="com.vish.testCases.TC004_BlankLoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:com.vish.testCases.TC002_LoginTest@16ce702d]" name="verifyLogin" class="com.vish.testCases.TC002_LoginTest"/>
-        <method signature="TC003_InvalidLoginTest.invalidLogin()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7b94089b]" name="invalidLogin" class="com.vish.testCases.TC003_InvalidLoginTest"/>
-        <method signature="TC004_BlankLoginTest.blankLogin()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@7ca20101]" name="blankLogin" class="com.vish.testCases.TC004_BlankLoginTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:com.vish.testCases.TC002_LoginTest@7b94089b]" name="verifyLogin" class="com.vish.testCases.TC002_LoginTest"/>
+        <method signature="TC003_InvalidLoginTest.invalidLogin()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7ca20101]" name="invalidLogin" class="com.vish.testCases.TC003_InvalidLoginTest"/>
+        <method signature="TC004_BlankLoginTest.blankLogin()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@47f9738]" name="blankLogin" class="com.vish.testCases.TC004_BlankLoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistrationTest.verify_acccount_registration()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@4ce1d6d0]" name="verify_acccount_registration" class="com.vish.testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_acccount_registration()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@24111ef1]" name="verify_acccount_registration" class="com.vish.testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-03-09T01:25:48 IST" name="chrome_Test" finished-at="2025-03-09T01:26:53 IST" duration-ms="65088">
+    <test started-at="2025-03-10T09:32:54 IST" name="chrome_Test" finished-at="2025-03-10T09:34:18 IST" duration-ms="84207">
       <class name="com.vish.testCases.TC004_BlankLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@7ca20101]" started-at="2025-03-09T01:26:21 IST" name="setUp" finished-at="2025-03-09T01:26:28 IST" duration-ms="7220" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@47f9738]" started-at="2025-03-10T09:33:33 IST" name="setUp" finished-at="2025-03-10T09:33:41 IST" duration-ms="7287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,17 +37,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="blankLogin()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@7ca20101]" started-at="2025-03-09T01:26:28 IST" name="blankLogin" finished-at="2025-03-09T01:26:30 IST" duration-ms="1384" status="PASS">
+        <test-method signature="blankLogin()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@47f9738]" started-at="2025-03-10T09:33:41 IST" name="blankLogin" finished-at="2025-03-10T09:33:42 IST" duration-ms="1602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blankLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@7ca20101]" started-at="2025-03-09T01:26:30 IST" name="tearDown" finished-at="2025-03-09T01:26:30 IST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC004_BlankLoginTest@47f9738]" started-at="2025-03-10T09:33:42 IST" name="tearDown" finished-at="2025-03-10T09:33:43 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vish.testCases.TC004_BlankLoginTest -->
       <class name="com.vish.testCases.TC003_InvalidLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7b94089b]" started-at="2025-03-09T01:26:12 IST" name="setUp" finished-at="2025-03-09T01:26:19 IST" duration-ms="7699" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7ca20101]" started-at="2025-03-10T09:33:23 IST" name="setUp" finished-at="2025-03-10T09:33:31 IST" duration-ms="8253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,17 +63,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7b94089b]" started-at="2025-03-09T01:26:19 IST" name="invalidLogin" finished-at="2025-03-09T01:26:21 IST" duration-ms="1600" status="PASS">
+        <test-method signature="invalidLogin()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7ca20101]" started-at="2025-03-10T09:33:31 IST" name="invalidLogin" finished-at="2025-03-10T09:33:33 IST" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7b94089b]" started-at="2025-03-09T01:26:21 IST" name="tearDown" finished-at="2025-03-09T01:26:21 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC003_InvalidLoginTest@7ca20101]" started-at="2025-03-10T09:33:33 IST" name="tearDown" finished-at="2025-03-10T09:33:33 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vish.testCases.TC003_InvalidLoginTest -->
       <class name="com.vish.testCases.TC005_AddBooksToCart">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC005_AddBooksToCart@47f9738]" started-at="2025-03-09T01:26:30 IST" name="setUp" finished-at="2025-03-09T01:26:38 IST" duration-ms="7689" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC005_AddBooksToCart@6155d082]" started-at="2025-03-10T09:33:43 IST" name="setUp" finished-at="2025-03-10T09:33:50 IST" duration-ms="7659" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,13 +89,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addBooksToCart()[pri:0, instance:com.vish.testCases.TC005_AddBooksToCart@47f9738]" started-at="2025-03-09T01:26:38 IST" name="addBooksToCart" finished-at="2025-03-09T01:26:41 IST" duration-ms="3039" status="FAIL">
+        <test-method signature="addBooksToCart()[pri:0, instance:com.vish.testCases.TC005_AddBooksToCart@6155d082]" started-at="2025-03-10T09:33:50 IST" name="addBooksToCart" finished-at="2025-03-10T09:33:54 IST" duration-ms="3627" status="FAIL">
           <exception class="junit.framework.AssertionFailedError">
             <message>
-              <![CDATA[The cart count did not update correctly after adding a product. Expected: 11but got10]]>
+              <![CDATA[The cart count did not update correctly after adding a product. Expected: 12but got11]]>
             </message>
             <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: The cart count did not update correctly after adding a product. Expected: 11but got10
+              <![CDATA[junit.framework.AssertionFailedError: The cart count did not update correctly after adding a product. Expected: 12but got11
 at junit.framework.Assert.fail(Assert.java:47)
 at com.vish.testCases.TC005_AddBooksToCart.addBooksToCart(TC005_AddBooksToCart.java:38)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -130,13 +130,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBooksToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC005_AddBooksToCart@47f9738]" started-at="2025-03-09T01:26:41 IST" name="tearDown" finished-at="2025-03-09T01:26:41 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC005_AddBooksToCart@6155d082]" started-at="2025-03-10T09:33:54 IST" name="tearDown" finished-at="2025-03-10T09:33:56 IST" duration-ms="2075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vish.testCases.TC005_AddBooksToCart -->
-      <class name="com.vish.testCases.TC006_SearchFunctionality">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC006_SearchFunctionality@6155d082]" started-at="2025-03-09T01:26:41 IST" name="setUp" finished-at="2025-03-09T01:26:49 IST" duration-ms="7324" status="PASS">
+      <class name="com.vish.testCases.TC007_InvalidSearchItem">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC007_InvalidSearchItem@561868a0]" started-at="2025-03-10T09:34:08 IST" name="setUp" finished-at="2025-03-10T09:34:16 IST" duration-ms="7932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,21 +152,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchItem()[pri:1, instance:com.vish.testCases.TC006_SearchFunctionality@6155d082]" started-at="2025-03-09T01:26:49 IST" name="searchItem" finished-at="2025-03-09T01:26:52 IST" duration-ms="2989" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchItem -->
-        <test-method signature="invalidSearchItem()[pri:2, instance:com.vish.testCases.TC006_SearchFunctionality@6155d082]" started-at="2025-03-09T01:26:52 IST" name="invalidSearchItem" finished-at="2025-03-09T01:26:53 IST" duration-ms="1081" status="PASS">
+        <test-method signature="invalidSearchItem()[pri:2, instance:com.vish.testCases.TC007_InvalidSearchItem@561868a0]" started-at="2025-03-10T09:34:16 IST" name="invalidSearchItem" finished-at="2025-03-10T09:34:17 IST" duration-ms="1197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidSearchItem -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC006_SearchFunctionality@6155d082]" started-at="2025-03-09T01:26:53 IST" name="tearDown" finished-at="2025-03-09T01:26:53 IST" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC007_InvalidSearchItem@561868a0]" started-at="2025-03-10T09:34:17 IST" name="tearDown" finished-at="2025-03-10T09:34:18 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vish.testCases.TC007_InvalidSearchItem -->
+      <class name="com.vish.testCases.TC006_SearchFunctionality">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC006_SearchFunctionality@3a5ecce3]" started-at="2025-03-10T09:33:56 IST" name="setUp" finished-at="2025-03-10T09:34:05 IST" duration-ms="8112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchItem()[pri:1, instance:com.vish.testCases.TC006_SearchFunctionality@3a5ecce3]" started-at="2025-03-10T09:34:05 IST" name="searchItem" finished-at="2025-03-10T09:34:08 IST" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC006_SearchFunctionality@3a5ecce3]" started-at="2025-03-10T09:34:08 IST" name="tearDown" finished-at="2025-03-10T09:34:08 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vish.testCases.TC006_SearchFunctionality -->
       <class name="com.vish.testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@4ce1d6d0]" started-at="2025-03-09T01:25:48 IST" name="setUp" finished-at="2025-03-09T01:25:57 IST" duration-ms="8882" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@24111ef1]" started-at="2025-03-10T09:32:54 IST" name="setUp" finished-at="2025-03-10T09:33:08 IST" duration-ms="14448" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,17 +204,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_acccount_registration()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@4ce1d6d0]" started-at="2025-03-09T01:25:57 IST" name="verify_acccount_registration" finished-at="2025-03-09T01:25:59 IST" duration-ms="2378" status="PASS">
+        <test-method signature="verify_acccount_registration()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@24111ef1]" started-at="2025-03-10T09:33:08 IST" name="verify_acccount_registration" finished-at="2025-03-10T09:33:12 IST" duration-ms="3237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_acccount_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@4ce1d6d0]" started-at="2025-03-09T01:25:59 IST" name="tearDown" finished-at="2025-03-09T01:26:01 IST" duration-ms="2040" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC001_AccountRegistrationTest@24111ef1]" started-at="2025-03-10T09:33:12 IST" name="tearDown" finished-at="2025-03-10T09:33:12 IST" duration-ms="620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.vish.testCases.TC001_AccountRegistrationTest -->
       <class name="com.vish.testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC002_LoginTest@16ce702d]" started-at="2025-03-09T01:26:01 IST" name="setUp" finished-at="2025-03-09T01:26:09 IST" duration-ms="7906" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.vish.testCases.TC002_LoginTest@7b94089b]" started-at="2025-03-10T09:33:12 IST" name="setUp" finished-at="2025-03-10T09:33:20 IST" duration-ms="7827" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,11 +230,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.vish.testCases.TC002_LoginTest@16ce702d]" started-at="2025-03-09T01:26:09 IST" name="verifyLogin" finished-at="2025-03-09T01:26:11 IST" duration-ms="2011" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.vish.testCases.TC002_LoginTest@7b94089b]" started-at="2025-03-10T09:33:20 IST" name="verifyLogin" finished-at="2025-03-10T09:33:23 IST" duration-ms="2351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC002_LoginTest@16ce702d]" started-at="2025-03-09T01:26:11 IST" name="tearDown" finished-at="2025-03-09T01:26:12 IST" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vish.testCases.TC002_LoginTest@7b94089b]" started-at="2025-03-10T09:33:23 IST" name="tearDown" finished-at="2025-03-10T09:33:23 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
